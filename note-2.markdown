@@ -91,5 +91,5 @@ builder = Builder.new('test.glade')
 Gtk.main
 ```
 在这个例子中使用了更OO的方法，`connect_signals` 方法把控件的信号和对应的函数都链接起来。比如刚才设置了 `button1` 的 `Handler`，这里就把 `button1` 的点击信号和函数 `on_button1_clicked` 链接了起来。  
-虽然应该这才是规范的写法，但是我对此不太理解。为每个信号分配一个特定的函数，是不是降低了Views和Controllers分离度？直接使用控件 `signal_connect` 不是很好吗？等待高人解答。
+虽然应该这才是规范的写法，但是我对此不太理解。为每个信号分配一个特定的函数，是不是降低了视图和程序的分离度？直接使用控件 `signal_connect` 不是很好吗？等待高人解答。
   [1]: http://glade.gnome.org/
