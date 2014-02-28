@@ -34,11 +34,9 @@ window.show_all
 
 Gtk.main
 ```
+这个HW似乎有点长，不过弹出的窗口仍然会让人兴奋不已。
 
-看上去比以往的HW都复杂？  
-没关系，接下来我们将对这个例子进行细致的解构。
-
-##剖析
+##解构
 ```ruby
 button = Gtk::Button.new("Hello World!")
 button.signal_connect("clicked") {
