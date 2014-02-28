@@ -69,7 +69,7 @@ Gtk是利用 `Gtk::Builder` 对glade文件进行读取的，我们会新建一�
 运行代码，点击一下按钮，会发现文本框的文字变成了"Hello"。由于我们并未对窗口的大小进行设置，所以实际上窗口大小是依据控件的位置和 `Border width` 决定的。  
 
 ##更规范的方法？
-在查找资料的过程中，我发现人们一般不会直接用Builder对象操作控件，而是会将控件的信号与函数链接起来。在glade设计器里，对控件可以设置Signals属性，尝试对button1的clicked信号进行设置，将其Handler设为on_button1_clicked。  
+在查找资料的过程中，我发现人们一般不会直接用Builder对象操作控件，而是会将控件的信号与函数链接起来。在glade设计器里，对控件可以设置 `Signals` 属性。尝试对 `button1` 的 `clicked` 信号进行设置，将其 `Handler` 设为 `on_button1_clicked`。  
 保存，然后运行以下ruby代码：
 ```ruby
 require 'gtk2'
