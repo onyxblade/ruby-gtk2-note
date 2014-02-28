@@ -1,4 +1,8 @@
-ruby-gtk2-tutorial-zh-cn
-========================
+个人学习gtk2的一些记录。
 
-ruby/gtk2入门，译自http://ruby-gnome2.sourceforge.jp/hiki.cgi?tut-gtk
+- [Ruby-Gtk2初尝][1]  
+- [使用Glade进行GUI设计][2]
+
+
+  [1]: https://github.com/CicholGricenchos/ruby-gtk2-note/blob/master/note-1.markdown
+  [2]: https://github.com/CicholGricenchos/ruby-gtk2-note/blob/master/note-2.markdown
